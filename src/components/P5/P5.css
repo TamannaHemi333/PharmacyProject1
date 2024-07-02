@@ -1,0 +1,37 @@
+
+/* Container for the text, logo, and image */
+.container23 {
+    background-color:azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the text section */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the large image */
+  img.large-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    img.large-image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

@@ -1,0 +1,43 @@
+/* Container for the text and images */
+.container0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the text section */
+  h1, h2 {
+    margin: 5px 0;
+  }
+  
+  .e {
+    font-size: 48px;
+    color:yellowgreen;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color:tomato;
+  }
+  
+  /* Container for the images */
+  .img-container0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap between images */
+    margin-top: 20px;
+  }
+  
+  img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    
+  }
+  

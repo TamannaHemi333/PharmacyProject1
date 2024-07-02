@@ -1,0 +1,81 @@
+/* Container for the text and images with background */
+.background-container {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230903/pngtree-drug-safety-what-the-pharmacist-should-know-image_13182921.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+  
+  /* Container for the text */
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Optional: to make text more readable */
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Flex container to hold text and images */
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Container for the images */
+  .img-container12 {
+    display: flex;
+    /* Images stacked vertically */
+    justify-content:right; /* Align images to the left */
+    align-items :end;
+    /* Align images to the left */
+    margin-top:40px;
+  }
+  
+  h1, h2, h3 {
+    margin: 5px 0;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Style for the images */
+  img {
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .img-container {
+      align-items: center; /* Center align for smaller screens */
+    }
+  
+    
+  }
+  
+  
+  
+  
+  
